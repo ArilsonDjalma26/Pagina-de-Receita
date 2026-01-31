@@ -1,14 +1,17 @@
-img{
-    border-radius: 16px;
-}
 body{
     background-image: url(../assets/bg.jpg);
-    background-repeat: no-repeat;
+    background-size: cover;
 }
+
 #page{
+    box-sizing: border-box;
     background-color: #F0E8C2;
-    width: 80%;
-    margin: auto;
+    width: 800px;
+    margin: 48px auto;
     padding: 24px;
     border-radius: 24px;
+}
+
+img{
+    border-radius: 16px;
 }
